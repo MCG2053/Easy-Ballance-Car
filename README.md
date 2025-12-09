@@ -36,9 +36,9 @@
 1. 克隆项目
 
 bash
-git clone https://github.com/yourname/balance-car.git
+git clone https://github.com/MCG2053/Easy-Balance-Car.git
 
-3. 用Keil打开项目文件 `Balance_Car.uvprojx`
+3. 用Keil打开项目文件 `Project.uvprojx`
 
 4. 编译项目
    - 点击 **Build** 或按 **F7**
@@ -152,17 +152,5 @@ I --> J[主循环]
 ## 暂时未上传 ##
 ![PCB设计](images/pcb.jpg)  
 *自制控制板PCB设计*
-
-## 🤝 贡献
-
-欢迎提交Issue和Pull Request！
-
-1. Fork本项目
-2. 创建新分支：`git checkout -b feature/YourFeature`
-3. 提交更改：`git commit -m 'Add some feature'`
-4. 推送到分支：`git push origin feature/YourFeature`
-5. 提交Pull Request
-
---
 
 ⭐ 如果这个项目对你有帮助，请点个Star！
