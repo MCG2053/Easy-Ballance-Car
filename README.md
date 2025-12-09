@@ -36,6 +36,7 @@
 1. 克隆项目
 
 bash
+
 git clone https://github.com/MCG2053/Easy-Balance-Car.git
 
 3. 用Keil打开项目文件 `Project.uvprojx`
