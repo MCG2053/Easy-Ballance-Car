@@ -63,28 +63,7 @@ git clone https://github.com/MCG2053/Easy-Balance-Car.git
 
 ## 📊 PID参数调节
 
-在 `pid.h` 中调整参数：
-
-c
-
-/*角度环PID参数*/
-PID AnglePID = {	
-	.Kp = -150,// 250*0.6==150,
-	.Kd = -800,// 650*0.6==390,
-	.target=0,
-};
-
-/*速度环PID参数*/ 
-PID SpeedPID = {	
-	.Vkp = -380,
-	.Vki = -380/200,// 340/200==1.7
-};
-
-/*转向环PID参数*/
-PID TurnPID = {	
-	.Tkp = -1,
-	.Tkd = -0.1,
-};
+在 `main.c` 中调整参数
 
 调节步骤：
 1. 先调直立环（Kp增大稳定性，Kd抑制震荡）
