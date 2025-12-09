@@ -13,7 +13,7 @@
 
 ## 📁 项目结构
 
-Easy-Ballance-Car
+Easy-Ballance-Car/
 {
   Hardware
   {
