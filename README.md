@@ -11,23 +11,6 @@
 - 无线NRF24L01+调试接口
 - OLED实时数据显示
 
-## 📁 项目结构
-
-Balance_Car_STM32/
-├── Core/ # 核心驱动
-│ ├── mpu6050.c # MPU6050驱动程序
-│ ├── pid.c # PID控制算法
-│ └── oled.c # OLED显示
-├── Hardware/ # 硬件驱动
-│ ├── motor.c # 电机驱动
-│ ├── encoder.c # 编码器
-│ └── bluetooth.c # 蓝牙通信
-├── User/ # 用户代码
-│ ├── main.c # 主程序
-│ ├── balance.c # 平衡控制
-│ └── control.c # 遥控控制
-└── README.md # 项目说明
-
 ## 🚀 快速开始
 
 ### 硬件要求
