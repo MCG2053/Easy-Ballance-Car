@@ -13,34 +13,20 @@
 
 ## 📁 项目结构
 
-Easy-Ballance-Car/
-|──Hardware
-| |── Bluetooth.c #蓝牙硬件驱动
-| |── Encoder.c #编码器硬件驱动
-| |── GY25.c #陀螺仪硬件驱动
-| |── Motor.c #电机硬件驱动
-| |── NRF24L01.C #2.4G无线模块硬件驱动 by 江协科技
-| └──  OLED.c # 0.96 OLED硬件驱动 by 江协科技
-|── Library
-| └── ## 标准库片内外设驱动文件,不做过多说明 ##
-|── Objects
-| └── ## 存放编译后文件 ##  
-|── Start
-| └──## 标准库核心文件,不做过多说明 ##
-|── System
-| |── Delay.c #延迟文件
-| └── PWM.c #PWM驱动文件
-|── User
-| |── Control.c #无线控制文件
-| |── Menu.c #菜单显示文件
-| |── PID.c #PID算法文件
-| |── Safety.c #安全装置文件
-| └── SysInit.c #系统初始化文件
-|── #Keil5项目文件
-|── 1
-|── 2
-|── 3
-|└── 清除编译后文件bat
+Balance_Car_STM32/
+├── Core/ # 核心驱动
+│ ├── mpu6050.c # MPU6050驱动程序
+│ ├── pid.c # PID控制算法
+│ └── oled.c # OLED显示
+├── Hardware/ # 硬件驱动
+│ ├── motor.c # 电机驱动
+│ ├── encoder.c # 编码器
+│ └── bluetooth.c # 蓝牙通信
+├── User/ # 用户代码
+│ ├── main.c # 主程序
+│ ├── balance.c # 平衡控制
+│ └── control.c # 遥控控制
+└── README.md # 项目说明
 
 ## 🚀 快速开始
 
